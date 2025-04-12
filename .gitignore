@@ -1,0 +1,4 @@
+# GIT IGNORE FILE
+
+vendor
+*.db
