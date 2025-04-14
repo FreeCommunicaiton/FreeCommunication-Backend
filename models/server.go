@@ -7,4 +7,9 @@ type Server struct {
 	Name    string    `json:"name"`
 	UserID  uint      `json:"userId"`
 	Channels []Channel `json:"channels"`
+	Settings ServerSettings `json:"settings`
+}
+
+type ServerSettings struct {
+	EditableUsers []uint `json:"editableUsers"`
 }
